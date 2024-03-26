@@ -1,0 +1,37 @@
+{
+  "name": "lightblueultimate",
+  "publisher": "moondevaa",
+  "displayName": "Light Blue Ultimate theme",
+  "description": "light blue theme in sweet palette",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords":[
+    "atom","sky","Bluloco","fancy","scheme","snazzy","netbeans","notpad","windows","microsoft","c++",
+    "visual","studio","pro","tiny","cute","monokai","best","idea","jetbrains","sun","daylight","simple","bright"
+    ,"contract","high","json","top","gray"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AaBbdev29/Light-Blue-Ultimate-theme"
+  },
+  "icon": "icon.jpg", 
+  "theme": "dark",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Light Blue Ultimate theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/light-blue-ultimate-theme-color-theme.json"
+      }
+    ]
+  }
+  ,"scripts": {
+    "deploy": "vsce publish --yarn"
+  }
+}
